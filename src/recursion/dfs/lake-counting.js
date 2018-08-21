@@ -13,7 +13,6 @@
  *  where a square is considered adjacent to all eight of its neighbors. 
  *
  *  Given a diagram of Farmer John's field, determine how many ponds he has.
- * 
  */
 
 function dfs(ar, i, j, n, m) {
