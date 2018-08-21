@@ -30,7 +30,7 @@ function quick(array, left, right) {
 	}
 }
 
-export default function quickSort(array) {
+export function quickSort(array) {
 	quick(array, 0, array.length - 1);
 	return array;
 }

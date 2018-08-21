@@ -1,4 +1,4 @@
-import generateCardsOriginOrder from '../../src/other/generate-cards-origin-order';
+import { generateCardsOriginOrder } from '../../src';
 
 test('generate-cards-origin-order: 5', () => {
 	expect(generateCardsOriginOrder(5)).toEqual([1, 5, 2, 4, 3]);

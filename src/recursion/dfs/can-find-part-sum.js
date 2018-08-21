@@ -20,6 +20,6 @@ function dfs(i, sum, ar, k) {
 	return false;
 }
 
-export default function canFindPartSum(ar, k) {
+export function canFindPartSum(ar, k) {
 	return dfs(0, 0, ar, k);
 }

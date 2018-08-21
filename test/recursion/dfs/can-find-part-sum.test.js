@@ -1,4 +1,4 @@
-import canFindPartSum from '../../src/recursion/can-find-part-sum';
+import { canFindPartSum } from '../../../src';
 
 test('can-find-part-sum: [1, 3, 5, 7, 9] -> 6', () => {
 	expect(canFindPartSum([1, 3, 5, 7, 9], 6)).toBe(true);

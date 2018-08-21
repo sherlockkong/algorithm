@@ -8,7 +8,7 @@
  * 	最后桌子上的牌是从1到n有序(最底下是1)，设计程序，输入n，输出牌堆的顺序数组
  */
 
-export default function generateCardsOriginOrder(n) {
+export function generateCardsOriginOrder(n) {
 	if (n <= 0) return [];
 
 	let i = 0;
